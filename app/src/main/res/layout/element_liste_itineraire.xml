@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    android:background="@drawable/shadow"
+    android:orientation="vertical"
+    android:padding="1dp">
+
+    <FrameLayout
+        android:id="@+id/layoutFond"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="2dp">
+
+        <TextView
+            android:id="@+id/textViewNom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/rando_sans_nom"
+            android:textAllCaps="false"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#000"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textViewType"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:gravity="right"
+            android:text="fhfhfgh"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="#000"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:padding="4dp">
+
+        <ImageView
+            android:id="@+id/imageViewRecord"
+            android:layout_width="@dimen/taille_icone_liste"
+            android:layout_height="@dimen/taille_icone_liste"
+            android:layout_gravity="center_vertical"
+            android:padding="8dp"
+            android:soundEffectsEnabled="true"
+            app:srcCompat="@drawable/ic_rec"
+            app:tint="@color/primary_dark" />
+
+        <ImageView
+            android:id="@+id/imageViewStop"
+            android:layout_width="@dimen/taille_icone_liste"
+            android:layout_height="@dimen/taille_icone_liste"
+            android:layout_gravity="center_vertical"
+            android:padding="8dp"
+            android:soundEffectsEnabled="true"
+            app:tint="@color/primary_dark"
+            app:srcCompat="@drawable/ic_stop" />
+
+        <TextView
+            android:id="@+id/textViewDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Medium Text"
+            android:textAlignment="viewEnd"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

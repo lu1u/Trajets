@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">Trajets</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_main">Trajets</string>
+    <string name="title_activity_details">Détails</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+
+    <string name="action_settings">Paramètres</string>
+    <string name="nom_rando">Nom</string>
+    <string name="title_activity_edit_itineraire">Itinéraire</string>
+    <string name="modifier">Modifier</string>
+    <string name="supprimer">Supprimer</string>
+    <string name="pas_de_itineraire">Aucun itinéraire.\nVeuillez cliquer sur le bouton + pour ajouter un itineraire</string>
+    <string name="type_rando">Type</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="enregistrement_en_cours">Enregistrement en cours,\nDébut %1$s</string>
+    <string name="debut_fin">Début: %1$s,\nFin %2$s</string>
+    <string name="debut">Début: %1$s</string>
+
+    <string name="creation">Création: %1$s</string>
+    <string name="nbPositions">\n%1$d positions enregistrées</string>
+    <string name="menu_details">Détails</string>
+    <string name="rando_sans_nom">Sans nom %1$d</string>
+    <string name="debut_enregistrement">Début de l\'enregistrement pour %1$s</string>
+    <string name="arret_enregistrement">Arrêt de l\'enregistrement pour %1$s</string>
+    <string name="supprimer_itineraire">Supprimer l\'itinéraire \'%1$s\'? \nPositions enregistrées : %2$d </string>
+    <string name="title_preferences">Préférences</string>
+    <string name="title_activity_report">ReportActivity</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+
+    <!-- TODO: remove this placeholder text -->
+    <!-- TODO: Remove or change this placeholder text -->
+
+</resources>

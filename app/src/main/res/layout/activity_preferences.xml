@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:orientation="vertical"
+    android:padding="10dp"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Paramètres"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/marge_bouton" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Précision du GPS: Un court délai ou une courte distance permettent de suivre précisement le parcours, un long delai ou une longue distance permettent d'éconimiser la batterie" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Délai minimum entre deux positions:"
+        android:textAppearance="@style/TextAppearance.AppCompat.Small" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/marge_bouton" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textViewDelai"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="marquee"
+            android:gravity="center" />
+
+        <SeekBar
+            android:id="@+id/seekBarDelai"
+            style="@style/Widget.AppCompat.SeekBar.Discrete"
+            android:layout_width="match_parent"
+            android:layout_height="32dp"
+            android:max="10"
+            android:progress="3" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/marge_bouton" />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Distance minimum entre deux positions:"
+        android:textAppearance="@style/TextAppearance.AppCompat.Small" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textViewDistance"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="marquee"
+            android:gravity="center" />
+
+        <SeekBar
+            android:id="@+id/seekBarDistance"
+            style="@style/Widget.AppCompat.SeekBar.Discrete"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:max="10"
+            android:progress="3" />
+
+    </LinearLayout>
+
+    <Switch
+        android:id="@+id/switchLocalisationGPS"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Utiliser localisation GPS" />
+
+    <Switch
+        android:id="@+id/switchLocalisationReseau"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Utiliser localisation réseau" />
+
+</LinearLayout>

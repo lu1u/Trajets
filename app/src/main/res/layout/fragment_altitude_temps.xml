@@ -1,0 +1,26 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.details.CourbeAltitudeFragment">
+
+    <com.lpi.trajets.courbes.HistogramView
+        android:id="@+id/histogramView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:paddingLeft="50dp"
+        android:paddingBottom="50dp"
+        app:HV_couleurAxes="@color/black"
+        app:HV_couleurCourbe="@android:color/holo_red_dark"
+        app:HV_couleurGrille="@android:color/holo_red_light"
+        app:HV_dessinerGrille="true"
+        app:HV_maxZoom="3.0"
+        app:HV_minZoom="1.0"
+        app:HV_marquesAxes="10dp"
+        app:HV_tailleAxes="1dp"
+        app:HV_tailleCourbe="3dp"
+        app:HV_tailleGrille="0.5dp" />
+</FrameLayout>

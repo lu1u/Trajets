@@ -1,0 +1,17 @@
+<resources>
+    <declare-styleable name="HistogramView">
+        <attr name="HV_tailleAxes" format="dimension" />
+        <attr name="HV_couleurAxes" format="color" />
+        <attr name="HV_marquesAxes" format="dimension" />
+        <attr name="HV_tailleTexteAxes" format="dimension" />
+
+        <attr name="HV_tailleCourbe" format="dimension" />
+        <attr name="HV_couleurCourbe" format="color" />
+        <attr name="HV_dessinerGrille" format="boolean"/>
+        <attr name="HV_couleurGrille" format="color" />
+        <attr name="HV_tailleGrille" format="dimension" />
+
+        <attr name="HV_minZoom" format="float"/>
+        <attr name="HV_maxZoom" format="float"/>
+    </declare-styleable>
+</resources>
